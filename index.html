@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/Paises.js"></script>
+
+
+<head>
+
+
+
+
+  <title>Entelgy</title>
+
+  <div class="header" style="border-color: aliceblue;">
+    <img src="" class="r" alt=""></img>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</head>
+
+<main>
+
+
+  <div class="card-holder">
+    <div class="card bg-spring">
+      Bienvenido ;) , más información, clic en la bandera.
+    </div>
+  </div>
+</main>
+
+
+
+
+<body onload="Onload()">
+
+  <div class="grid-container">
+    <div class="grid-item bg-peru" style="color: black;" onclick="mostrarPeru();"> <label for="" id="Peru">Peru</label>
+    </div>
+    <div class="grid-item bg-germany" onclick="mostrarAlemania();"><label id="Alemania">Alemania</label></div>
+    <div class="grid-item bg-aurora" onclick="mostrarBrasil();"> <label id="Brasil" for="">Brasil</label> </div>
+    <div class="grid-item bg-cr" onclick="mostrarCostaRica();"> <label for="" id="Costa Rica">Costa Rica</label></div>
+    <div class="grid-item bg-argentina" onclick="mostrarArgentina();"> <label for="" id="Argentina">Argentina</label>
+    </div>
+    <div class="grid-item bg-ecu" onclick="mostrarEcuador();"> <label for="" id="Ecuador"> Ecuador</label></div>
+    <div class="grid-item bg-came" onclick="mostrarCamerun();"> <label for="" id="Camerun">Camerun</label></div>
+    <div class="grid-item bg-usa" onclick="mostrarEstadosUnidos();"><label for="" id="Estados Unidos">Estados
+        Unidos</label></div>
+    <div class="grid-item bg-bolivia" onclick="mostrarBolivia();"> <label for="" id="Bolivia">Bolivia</label></div>
+    <div class="grid-item bg-italia" onclick="mostrarItalia();"> <label for="" id="Italia">Italia</label></div>
+    <div class="grid-item bg-es" onclick="mostrarEspana();"> <label for="" id="Espana">España</label></div>
+    <div class="grid-item bg-fran" onclick="mostrarFrancia();"> <label for="" id="Francia">Francia</label></div>
+
+  </div>
+
+
+
+
+
+  <div id="myModal" class="modal">
+
+
+    <div class="modal-content">
+      <span id="closex" class="close" onclick="offmodal();">&times;</span>
+
+      <div id="divpai" style="margin-left: 1.5em;"><label for="" id="pai">
+      
+
+      </label>   <img  id="bandera"src="" alt=""></div>
+
+      <table>
+
+        <td>
+          <div id="mapa">
+            <iframe id="maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16135228.087388994!2d-84.06427478906657!3d-9.130550585019135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c850c05914f5%3A0xf29e011279210648!2zUGVyw7o!5e0!3m2!1ses-419!2spe!4v1607620001749!5m2!1ses-419!2spe"
+              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+
+          </div>
+        </td>
+        <td>
+          <div id="textubi">
+            <label for="" id='ubi'></label>
+          </div>
+
+          <div id="parr">
+            <label for="" id='des'></label>
+          </div>
+        </td>
+
+      </table>
+
+
+      <br>
+
+    </div>
+    <div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Sobre mí <span>Jorge </span></h3>
+
+      <p class="footer-links">
+        <a href="#">Incio</a>
+        |
+        <a href="#">Servicios</a>
+        |
+        <a href="#">Nosotros</a>
+        |
+        <a href="#">Contacto</a>
+      </p>
+
+      <p class="footer-company-name">© 2019 Jorge Luis.</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Villa el salvador, Av revolición 550, Sector 2</span>
+          Lima, Peru - LIMA 42</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+51 918979108</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:jlcv99@icloud.com">jlcv99@icloud.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>Sobre mis servicios</span>
+        Algunas apps que desarrollamos juntos :).</p>
+      <!--<div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>-->
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+
+
+</html>
